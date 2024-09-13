@@ -11,20 +11,20 @@ public class Siakad17 {
         double nilaiKuis, nilaiTugas, nilaiUjian, nilaiAkhir;
 
         System.out.print("Masukkan nama: ");
-        nama = mulyono.nextLine();
+        nama = Mulyono.nextLine();
         System.out.print("Masukkan nim: ");
-        nim = mulyono.nextLine();
+        nim = Mulyono.nextLine();
         System.out.print("Masukkan kelas: ");
-        kelas = mulyono.nextLine();
+        kelas = Mulyono.nextLine().charAt(0);
         System.out.print("Masukkan absen: ");
-        absen = mulyonoc.nextByte();
+        absen = Mulyono.nextByte();
 
         System.out.print("Masukkan nilai kuis: ");
-        nilaiKuis = mulyono.nextLine();
+        nilaiKuis = Mulyono.nextDouble();
         System.out.print("Masukkan nilai tugas: ");
-        nilaiTugas = mulyono.nextLine();
+        nilaiTugas = Mulyono.nextDouble();
         System.out.print("Masukkan nilai ujian: ");
-        nilaiUjian = mulyono.nextLine();
+        nilaiUjian = Mulyono.nextDouble();
 
         nilaiAkhir = (nilaiKuis + nilaiTugas + nilaiUjian) / 3;
 
