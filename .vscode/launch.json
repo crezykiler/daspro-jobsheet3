@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Gaji17",
+            "request": "launch",
+            "mainClass": "Gaji17",
+            "projectName": "daspro-jobsheet3_a51a7018"
+        },
+        {
+            "type": "java",
+            "name": "Listrik17",
+            "request": "launch",
+            "mainClass": "Listrik17",
+            "projectName": "daspro-jobsheet3_a51a7018"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
